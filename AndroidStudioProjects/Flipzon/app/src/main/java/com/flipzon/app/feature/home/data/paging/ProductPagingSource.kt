@@ -25,7 +25,8 @@ class ProductPagingSource(
                     id = it.id,
                     title = it.title,
                     price = it.price,
-                    thumbnail = it.thumbnail
+                    thumbnail = it.thumbnail,
+                    category = it.category
                 )
             }
             LoadResult.Page(

@@ -34,7 +34,8 @@ class ProductRepositoryImpl @Inject constructor(
                     id = it.id,
                     title = it.title,
                     price = it.price,
-                    thumbnail = it.thumbnail
+                    thumbnail = it.thumbnail,
+                    category = it.category
                 )
             }
             emit(NetworkResult.Success(products))
